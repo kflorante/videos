@@ -2,7 +2,7 @@ import React from 'react';
 
 const VideoList = ({ videos  }) => {
   return (
-    <div>{videos.lengthsdfsd}</div>
+    <div>{videos.length}</div>
   )
 };
 
