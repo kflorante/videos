@@ -4,7 +4,7 @@ import VideoItem from './VideoItem';
 const VideoList = ({ videos  }) => {
   const renderVideoItems = videos.map(video => {
     return (
-      <VideoItem />
+      <VideoItem video={video} />
     );
   });
   return (
