@@ -8,7 +8,7 @@ const VideoList = ({ videos  }) => {
     );
   });
   return (
-    <div>{renderVideoItems}</div>
+    <div className="ui relaxed divided list">{renderVideoItems}</div>
   )
 };
 
